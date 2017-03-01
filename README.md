@@ -30,8 +30,10 @@ This feature could be used in a bpcnd, to stop is a especific argument of a sysc
 
 ![alt tag](doc/script.png?raw=true)
 
-## Notes
+and the debugger pauses in
+
+![alt tag](doc/stringinstack.png?raw=true)
 
 You can find unicode or ansi strings depends on the second argument of cndsteroids.ismystring ($ANSI or $UNICODE)
 
-By the way, the strings are dinamicly allocated by the plugin, so if you want free it you have the command delString that receives the identifier number of the string.
+By the way, the strings are dinamicly allocated by the plugin, so if you want free it you have available the command delString that receives the identifier number of the string and deallocate it.
