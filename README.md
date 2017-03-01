@@ -4,10 +4,10 @@ Plugin template for x64dbg that allow the possibility to set breakpoints when a 
 
 ## Installation
 
-Grab the latest [release](https://github.com/pastaCLS/cndsteroids/bin/x32/cndsteroids.dp32) and copy to the x32dbg's plugin floder.
+Grab the latest [release](https://github.com/pastaCLS/cndsteroids/blob/master/bin/x32/cndsteroids.dp32) and copy to the x32dbg's plugin floder.
 
 ## How it works?
 
 The plugin creates the command setString, this command asociate the string with a number, for example:
 
-![alt tag]()
+![alt tag](://github.com/pastaCLS/cndsteroids/blob/master/doc/ismystring.png?raw=true)
