@@ -8,6 +8,30 @@ Grab the latest [release](https://github.com/pastaCLS/cndsteroids/blob/master/bi
 
 ## How it works?
 
-The plugin creates the command setString, this command asociate the string with a number, for example:
+The plugin creates the command setString, this command asociate the string with a number, later the number identifies the string in the other commands
+
+![alt tag](doc/setString.png?raw=true)
+
+With the registers as follow:
+
+![alt tag](doc/TestString-esp.png?raw=true)
+
+We have "TestString" in the stack pointer
+
+Now we have the expression function cndsteroids.ismystring() that receives a debugge's memory address, and returns true or false if has the text.
 
 ![alt tag](doc/ismystring.png?raw=true)
+
+As you can see, the address has our string, so returns true:
+
+![alt tag](doc/return.png?raw=true)
+
+This feature could be used in a bpcnd, to stop is a especific argument of a syscall, for example:
+
+![alt tag](doc/script.png?raw=true)
+
+## Notes
+
+You can find unicode or ansi strings depends on the second argument of cndsteroids.ismystring ($ANSI or $UNICODE)
+
+By the way, the strings are dinamicly allocated by the plugin, so if you want free it you have the command delString that receives the identifier number of the string.
