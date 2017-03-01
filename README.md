@@ -8,7 +8,7 @@ Grab the latest [release](https://github.com/pastaCLS/cndsteroids/blob/master/bi
 
 ## How it works?
 
-The plugin creates the command setString, this command asociate the string with a number, later the number identifies the string in another commands
+The plugin creates the command setString, this command asociate the string with a number, later the number will identify the string in another commands
 
 ![alt tag](doc/setString.png?raw=true)
 
