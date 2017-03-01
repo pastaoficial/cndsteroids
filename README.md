@@ -10,4 +10,4 @@ Grab the latest [release](https://github.com/pastaCLS/cndsteroids/blob/master/bi
 
 The plugin creates the command setString, this command asociate the string with a number, for example:
 
-![alt tag](://github.com/pastaCLS/cndsteroids/blob/master/doc/ismystring.png?raw=true)
+![alt tag](blob/master/doc/ismystring.png?raw=true)
