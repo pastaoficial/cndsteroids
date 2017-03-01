@@ -8,11 +8,11 @@ Grab the latest [release](https://github.com/pastaCLS/cndsteroids/blob/master/bi
 
 ## How it works?
 
-The plugin creates the command setString, this command asociate the string with a number, later the number identifies the string in the other commands
+The plugin creates the command setString, this command asociate the string with a number, later the number identifies the string in another commands
 
 ![alt tag](doc/setString.png?raw=true)
 
-With the registers as follow:
+For our test we set the registers as follow:
 
 ![alt tag](doc/TestString-esp.png?raw=true)
 
