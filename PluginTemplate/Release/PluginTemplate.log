@@ -1,0 +1,28 @@
+﻿Build started 3/1/2017 5:00:28 PM.
+Project "C:\Users\pasta\Desktop\PluginTemplate-master\PluginTemplate\PluginTemplate.vcxproj" on node 2 (Build target(s)).
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (PluginTemplate.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt plugin.cpp pluginmain.cpp
+  plugin.cpp
+  pluginmain.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pasta\Desktop\PluginTemplate-master\bin\x32\cndsteroids.dp32" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\pasta\Desktop\PluginTemplate-master\bin\x32\cndsteroids.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\pasta\Desktop\PluginTemplate-master\bin\x32\cndsteroids.lib" /MACHINE:X86 /SAFESEH /DLL Release\plugin.obj
+  Release\pluginmain.obj
+  pluginsdk\capstone\capstone_x86.lib
+  pluginsdk\DeviceNameResolver\DeviceNameResolver_x86.lib
+  pluginsdk\jansson\jansson_x86.lib
+  pluginsdk\lz4\lz4_x86.lib
+  pluginsdk\TitanEngine\TitanEngine_x86.lib
+  pluginsdk\x32bridge.lib
+  pluginsdk\x32dbg.lib
+  pluginsdk\XEDParse\XEDParse_x86.lib
+  pluginsdk\yara\yara_x86.lib
+     Creating library C:\Users\pasta\Desktop\PluginTemplate-master\bin\x32\cndsteroids.lib and object C:\Users\pasta\Desktop\PluginTemplate-master\bin\x32\cndsteroids.exp
+  Generating code
+  Finished generating code
+  PluginTemplate.vcxproj -> C:\Users\pasta\Desktop\PluginTemplate-master\bin\x32\cndsteroids.dp32
+Done Building Project "C:\Users\pasta\Desktop\PluginTemplate-master\PluginTemplate\PluginTemplate.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.62
